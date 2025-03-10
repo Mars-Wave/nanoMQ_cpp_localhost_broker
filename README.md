@@ -8,3 +8,6 @@ mosquitto_pub -h localhost -p 1883 -u myUser -P myPassword -t "MYTOPIC" -m "Hell
 also this can be accessed from other devices that can see an open network interface of your local host.
 
 I.e: your device on network is 192.168.1.X, so you can replace localhost by that on the aforementioned commands and you can publish and subscribe to topics with it. 
+
+
+(you can also use the following QML + QT sister program to view the contents: https://github.com/Mars-Wave/QTMqttSubPlusBrokerRunner/)
